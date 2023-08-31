@@ -11,7 +11,9 @@
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "antd": "^5.8.2",
+    "papaparse": "^5.4.1",
     "react": "^18.2.0",
+    "react-csv-to-table": "^0.0.4",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
@@ -43,7 +45,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@types/papaparse": "^5.3.8"
   },
   "homepage": "https://beahuszar.github.io/antd-practice"
 }
