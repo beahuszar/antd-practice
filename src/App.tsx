@@ -2,6 +2,7 @@ import { Collapse, Input } from 'antd'
 import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
+import { Reszveny } from './components/reszveny/reszveny.component'
 import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
 import { TargyieszkozApportbaadas } from './components/targyieszkozApportbaadas/targyieszkoz-apportbaadas.component'
 import { TargyieszkozErtekelese } from './components/targyieszkozErtekelese/targyieszkozErtekelese.component'
@@ -27,6 +28,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Tárgyieszköz apportba adás',
     children: <TargyieszkozApportbaadas />
+  },
+  {
+    label: 'Részvény',
+    children: <Reszveny />
   }
 ]
 
