@@ -3,6 +3,7 @@ import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
 import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
+import { TargyieszkozErtekelese } from './components/targyieszkozErtekelese/targyieszkozErtekelese.component'
 
 // TODO: valami nem oke a deployyal, csak a build foldert nyomja fel
 const defaultItems: { label: string; children: React.ReactNode }[] = [
@@ -17,6 +18,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Tárgyieszköz és beruházás',
     children: <Targyieszkoz />
+  },
+  {
+    label: 'Tárgyieszköz értékelése (értékesítés le és felértékelés)',
+    children: <TargyieszkozErtekelese />
   }
 ]
 
