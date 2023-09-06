@@ -2,6 +2,7 @@ import { Collapse, Input } from 'antd'
 import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
+import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
 
 // TODO: valami nem oke a deployyal, csak a build foldert nyomja fel
 const defaultItems: { label: string; children: React.ReactNode }[] = [
@@ -12,6 +13,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Gazdasági események idősoros könyvelése',
     children: <GazdasagiEsemenyek />
+  },
+  {
+    label: 'Tárgyieszköz',
+    children: <Targyieszkoz />
   }
 ]
 
@@ -37,7 +42,7 @@ function App() {
     <>
       Kereso:
       <Input style={{ width: 150, marginBottom: 20 }} onChange={handleChange} />
-      <Collapse items={items} defaultActiveKey={['0']} />
+      <Collapse items={items} /* defaultActiveKey={['0']} */ />
     </>
   )
 }
