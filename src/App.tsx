@@ -4,6 +4,7 @@ import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.componen
 import { BeruhazasJelenertek } from './components/beruhazasJelenertek/beruhazas-jelenertek.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
+import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyieszkozEsErtekesites/idosoros-targyieszkoz-es-ertekesites.component'
 import { Kotveny } from './components/kotveny/kotveny.component'
 import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasiEsemeny/megterulesiido-forgasiEsemeny.component'
 import { Reszveny } from './components/reszveny/reszveny.component'
@@ -52,6 +53,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Idősoros beruházás és bér',
     children: <IdosorosBeruhazasEsBer />
+  },
+  {
+    label: 'Idősoros tárgyieszköz és értékesítés',
+    children: <IdosorosTargyieszkozEsErtekesites />
   }
 ]
 
