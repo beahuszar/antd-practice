@@ -15,7 +15,7 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
     children: <GazdasagiEsemenyek />
   },
   {
-    label: 'Tárgyieszköz',
+    label: 'Tárgyieszköz és beruházás',
     children: <Targyieszkoz />
   }
 ]
