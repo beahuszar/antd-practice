@@ -5,6 +5,7 @@ import { BeruhazasJelenertek } from './components/beruhazasJelenertek/beruhazas-
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
 import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyieszkozEsErtekesites/idosoros-targyieszkoz-es-ertekesites.component'
+import { KesztermekErtekesitesEredmenyhatas } from './components/kesztermekErtekesitesEredmenyhatas/kesztermekertekesites-eredmenyhatas.component'
 import { KiskerErtekesitesEredmenyhatas } from './components/kiskerErtekesitesEredmenyhatas/kisker-ertekesites-eredmenyhatas.component'
 import { Kotveny } from './components/kotveny/kotveny.component'
 import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasiEsemeny/megterulesiido-forgasiEsemeny.component'
@@ -67,6 +68,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Tárgyieszköz selejt eredményhatás',
     children: <TargyieszkozSelejtEredmenyhatas />
+  },
+  {
+    label: 'Késztermék értékesítés eredményhatás',
+    children: <KesztermekErtekesitesEredmenyhatas />
   }
 ]
 
