@@ -6,6 +6,7 @@ import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-es
 import { IdosorosAlapanyagEsGongyoleg } from './components/idosorosAlapanyagEsGongyoleg/idosoros-alapanyag-es-gongyoleg.component'
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
 import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyieszkozEsErtekesites/idosoros-targyieszkoz-es-ertekesites.component'
+import { Jelenertek } from './components/jelenertek/jelenertek.component'
 import { KesztermekErtekesitesEredmenyhatas } from './components/kesztermekErtekesitesEredmenyhatas/kesztermekertekesites-eredmenyhatas.component'
 import { KiskerErtekesitesEredmenyhatas } from './components/kiskerErtekesitesEredmenyhatas/kisker-ertekesites-eredmenyhatas.component'
 import { Kotveny } from './components/kotveny/kotveny.component'
@@ -77,6 +78,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Idősoros alapanyag és göngyöleg',
     children: <IdosorosAlapanyagEsGongyoleg />
+  },
+  {
+    label: 'Jelenérték',
+    children: <Jelenertek />
   }
 ]
 
