@@ -3,6 +3,7 @@ import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
 import { BeruhazasJelenertek } from './components/beruhazasJelenertek/beruhazas-jelenertek.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
+import { IdosorosAlapanyagEsGongyoleg } from './components/idosorosAlapanyagEsGongyoleg/idosoros-alapanyag-es-gongyoleg.component'
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
 import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyieszkozEsErtekesites/idosoros-targyieszkoz-es-ertekesites.component'
 import { KesztermekErtekesitesEredmenyhatas } from './components/kesztermekErtekesitesEredmenyhatas/kesztermekertekesites-eredmenyhatas.component'
@@ -72,6 +73,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Késztermék értékesítés eredményhatás',
     children: <KesztermekErtekesitesEredmenyhatas />
+  },
+  {
+    label: 'Idősoros alapanyag és göngyöleg',
+    children: <IdosorosAlapanyagEsGongyoleg />
   }
 ]
 
