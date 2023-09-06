@@ -1,6 +1,7 @@
 import { Collapse, Input } from 'antd'
 import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
+import { BeruhazasJelenertek } from './components/beruhazasJelenertek/beruhazas-jelenertek.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
 import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasiEsemeny/megterulesiido-forgasiEsemeny.component'
 import { Reszveny } from './components/reszveny/reszveny.component'
@@ -37,6 +38,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Megtérülési idő és forgási sebesség',
     children: <MegterulesiidoForgasiEsemeny />
+  },
+  {
+    label: 'Beruházás jelenérték',
+    children: <BeruhazasJelenertek />
   }
 ]
 
