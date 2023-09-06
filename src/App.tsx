@@ -12,6 +12,7 @@ import { Reszveny } from './components/reszveny/reszveny.component'
 import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
 import { TargyieszkozApportbaadas } from './components/targyieszkozApportbaadas/targyieszkoz-apportbaadas.component'
 import { TargyieszkozErtekelese } from './components/targyieszkozErtekelese/targyieszkozErtekelese.component'
+import { TargyieszkozSelejtEredmenyhatas } from './components/targyieszkozSelejtEredmenyhatas/targyieszkoz-selejt-eredmenyhatas.component'
 
 // TODO: valami nem oke a deployyal, csak a build foldert nyomja fel
 const defaultItems: { label: string; children: React.ReactNode }[] = [
@@ -62,6 +63,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Kisker értékesítés eredményhatás',
     children: <KiskerErtekesitesEredmenyhatas />
+  },
+  {
+    label: 'Tárgyieszköz selejt eredményhatás',
+    children: <TargyieszkozSelejtEredmenyhatas />
   }
 ]
 
