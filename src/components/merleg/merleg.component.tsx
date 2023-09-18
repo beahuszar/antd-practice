@@ -1,5 +1,7 @@
 import image1 from './images/image1.png'
 import image2 from './images/image2.png'
+import image3 from './images/image3.png'
+import image4 from './images/image4.png'
 
 export function Merleg() {
   return (
@@ -36,6 +38,10 @@ export function Merleg() {
         <p style={{ color: 'red', fontWeight: 'bold' }}>
           4ES SZÁMLÁK K OLDAL KÖTELEZETTSÉG, T OLDAL KÖVETELÉS
         </p>
+      </div>
+      <div>
+        <img src={image3} alt='image3' />
+        <img src={image4} alt='image4' />
       </div>
     </>
   )
