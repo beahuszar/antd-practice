@@ -7,6 +7,7 @@ import { IdosorosAlapanyagEsGongyoleg } from './components/idosorosAlapanyagEsGo
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
 import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyieszkozEsErtekesites/idosoros-targyieszkoz-es-ertekesites.component'
 import { Jelenertek } from './components/jelenertek/jelenertek.component'
+import { Kepletek } from './components/kepletek/kepletek.component'
 import { KesztermekErtekesitesEredmenyhatas } from './components/kesztermekErtekesitesEredmenyhatas/kesztermekertekesites-eredmenyhatas.component'
 import { KiskerErtekesitesEredmenyhatas } from './components/kiskerErtekesitesEredmenyhatas/kisker-ertekesites-eredmenyhatas.component'
 import { Kotveny } from './components/kotveny/kotveny.component'
@@ -82,6 +83,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Jelenérték',
     children: <Jelenertek />
+  },
+  {
+    label: 'Képletek',
+    children: <Kepletek />
   }
 ]
 
@@ -105,7 +110,7 @@ function App() {
 
   return (
     <>
-      Kereso:
+      Kereső:
       <Input style={{ width: 150, marginBottom: 20 }} onChange={handleChange} />
       <Collapse items={items} /* defaultActiveKey={['0']} */ />
     </>
