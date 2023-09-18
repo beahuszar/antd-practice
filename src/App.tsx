@@ -2,6 +2,7 @@ import { Collapse, Input } from 'antd'
 import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
 import { BeruhazasJelenertek } from './components/beruhazasJelenertek/beruhazas-jelenertek.component'
+import { GazdasagiAlapszamitasok } from './components/gazdasagiAlapszamitasok/gazdasagi-alapszamitasok.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
 import { IdosorosAlapanyagEsGongyoleg } from './components/idosorosAlapanyagEsGongyoleg/idosoros-alapanyag-es-gongyoleg.component'
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
@@ -9,6 +10,7 @@ import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyies
 import { Jelenertek } from './components/jelenertek/jelenertek.component'
 import { Kepletek } from './components/kepletek/kepletek.component'
 import { KesztermekErtekesitesEredmenyhatas } from './components/kesztermekErtekesitesEredmenyhatas/kesztermekertekesites-eredmenyhatas.component'
+import { KiskerAru } from './components/kiskerAru/kisker-aru.components'
 import { KiskerErtekesitesEredmenyhatas } from './components/kiskerErtekesitesEredmenyhatas/kisker-ertekesites-eredmenyhatas.component'
 import { Kotveny } from './components/kotveny/kotveny.component'
 import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasiEsemeny/megterulesiido-forgasiEsemeny.component'
@@ -87,6 +89,14 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Képletek',
     children: <Kepletek />
+  },
+  {
+    label: 'Gazdasági alapszámítások',
+    children: <GazdasagiAlapszamitasok />
+  },
+  {
+    label: 'Kisker áru',
+    children: <KiskerAru />
   }
 ]
 
