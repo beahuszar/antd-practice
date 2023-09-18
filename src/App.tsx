@@ -14,6 +14,7 @@ import { KiskerAru } from './components/kiskerAru/kisker-aru.components'
 import { KiskerErtekesitesEredmenyhatas } from './components/kiskerErtekesitesEredmenyhatas/kisker-ertekesites-eredmenyhatas.component'
 import { Kotveny } from './components/kotveny/kotveny.component'
 import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasiEsemeny/megterulesiido-forgasiEsemeny.component'
+import { Merleg } from './components/merleg/merleg.component'
 import { Reszveny } from './components/reszveny/reszveny.component'
 import { SZJACsokkentoTetelek } from './components/szjaCsokkentoTetelek/szja-csokkento-tetelek.component'
 import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
@@ -102,6 +103,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'SZJA csökkentő tételek',
     children: <SZJACsokkentoTetelek />
+  },
+  {
+    label: 'Mérleg',
+    children: <Merleg />
   }
 ]
 
