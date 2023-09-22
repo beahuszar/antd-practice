@@ -2,6 +2,7 @@ import { Collapse, Input } from 'antd'
 import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
 import { BeruhazasJelenertek } from './components/beruhazasJelenertek/beruhazas-jelenertek.component'
+import { DinamikusEsStatikusMutatok } from './components/dinamikusEsStatikusMutatok/dinamikus-es-statikus-mutatok.component'
 import { Eredmenykimutatas } from './components/eredmenykimutatas/eredmenykimutatas.component'
 import { GazdasagiAlapszamitasok } from './components/gazdasagiAlapszamitasok/gazdasagi-alapszamitasok.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
@@ -112,6 +113,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Eredménykimutatás',
     children: <Eredmenykimutatas />
+  },
+  {
+    label: 'Dinamikus és statikus mutatók',
+    children: <DinamikusEsStatikusMutatok />
   }
 ]
 
