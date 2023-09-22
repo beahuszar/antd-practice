@@ -9,7 +9,7 @@ import image8 from './images/image8.png'
 
 export function KiskerAru() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <p>kisker áru beszerzés</p>
       <img src={image1} alt='image1' />
       <p>mellékköltség – szállítási díj</p>
@@ -24,6 +24,6 @@ export function KiskerAru() {
       <p>teljes</p>
       <img src={image7} alt='image7' />
       <img src={image8} alt='image8' />
-    </>
+    </div>
   )
 }

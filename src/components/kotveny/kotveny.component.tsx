@@ -8,7 +8,7 @@ import tobbEves2 from './images/tobbEvesFutam2.png'
 
 export function Kotveny() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <h3>Egyszerű</h3>
       <img src={egyszeru} alt='egyszeru' />
       <img src={egyszeru2} alt='egyszeru2' />
@@ -20,6 +20,6 @@ export function Kotveny() {
       <h3>Több éves futamidő</h3>
       <img src={tobbEves1} alt='tobbEves1' />
       <img src={tobbEves2} alt='tobbEves2' />
-    </>
+    </div>
   )
 }

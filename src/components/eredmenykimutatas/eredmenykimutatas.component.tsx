@@ -7,13 +7,13 @@ import image6 from './images/image6.png'
 
 export function Eredmenykimutatas() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <img src={image1} alt='image1' />
       <img src={image2} alt='image2' />
       <img src={image3} alt='image3' />
       <img src={image4} alt='image4' />
       <img src={image5} alt='image5' />
       <img src={image6} alt='image6' />
-    </>
+    </div>
   )
 }

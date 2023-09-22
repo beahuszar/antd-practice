@@ -16,7 +16,7 @@ import te9 from './images/image9-aktivalas.png'
 
 export function Targyieszkoz() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <p>személyautó – áfa nem levonható a bruttó (áfával növelt) összeget könyveljük.</p>
       <img src={te} alt='te' />
       <p>teherautó beszerzés – áfa levonható</p>
@@ -39,6 +39,6 @@ export function Targyieszkoz() {
       <img src={te14} alt='te14' />
       <p>aktiválás 161-es egyenlege</p>
       <img src={te15} alt='te15' />
-    </>
+    </div>
   )
 }

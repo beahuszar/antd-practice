@@ -6,12 +6,12 @@ import image5 from './images/image5.png'
 
 export function GazdasagiAlapszamitasok() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <img src={image1} />
       <img src={image2} />
       <img src={image3} />
       <img src={image4} />
       <img src={image5} />
-    </>
+    </div>
   )
 }

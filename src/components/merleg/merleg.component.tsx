@@ -5,7 +5,7 @@ import image4 from './images/image4.png'
 
 export function Merleg() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <img src={image1} alt='image1' />
       <img src={image2} alt='image2' />
       <div style={{ marginBottom: '15px' }}>
@@ -43,6 +43,6 @@ export function Merleg() {
         <img src={image3} alt='image3' />
         <img src={image4} alt='image4' />
       </div>
-    </>
+    </div>
   )
 }

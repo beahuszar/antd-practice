@@ -18,7 +18,7 @@ import img1 from './images/image1.png'
 
 export function TargyieszkozApportbaadas() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <p>20% alatt kistulajdonos</p>
       <p>20% felett jelentős tulajdoni hányad</p>
       <p>leányvállalat</p>
@@ -55,6 +55,6 @@ export function TargyieszkozApportbaadas() {
       <img src={img15} alt='img15' />
       <img src={img16} alt='img16' />
       <img src={img17} alt='img17' />
-    </>
+    </div>
   )
 }

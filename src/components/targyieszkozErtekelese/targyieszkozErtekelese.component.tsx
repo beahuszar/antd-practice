@@ -30,7 +30,7 @@ import img9 from './images/image9.png'
 
 export function TargyieszkozErtekelese() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <h3>ingatlan értékelése</h3>
       <p>
         Tartós és jelentős különbségnél lehet le vagy felértékelni. Itt jelentős, ha 10%-kal a könyv
@@ -84,6 +84,6 @@ export function TargyieszkozErtekelese() {
       <img src={img27} alt='img27' />
       <img src={img28} alt='img28' />
       <img src={img29} alt='img29' />
-    </>
+    </div>
   )
 }

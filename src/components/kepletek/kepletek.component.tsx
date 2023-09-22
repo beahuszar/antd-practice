@@ -21,7 +21,7 @@ import image9 from './images/image9.png'
 
 export function Kepletek() {
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <img src={image1} />
       <img src={image2} />
       <img src={image3} />
@@ -42,6 +42,6 @@ export function Kepletek() {
       <img src={image18} />
       <img src={image19} />
       <img src={image20} />
-    </>
+    </div>
   )
 }
