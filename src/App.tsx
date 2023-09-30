@@ -21,6 +21,7 @@ import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasi
 import { Merleg } from './components/merleg/merleg.component'
 import { MerlegNagyitott } from './components/merlegNagyitott/merleg-nagyitott.component'
 import { Reszveny } from './components/reszveny/reszveny.component'
+import { ReszvenyElmeletiArfolyamMeghatarozasa } from './components/reszvenyElmeletiArfolyamMeghatarozasa/reszveny-elmeleti-arfolyam-meghatarozasa.component'
 import { SajatTermelesuKeszletekAllomanyvaltozasa } from './components/sajatTermelesuKeszletekAllomanyvaltozasa/sajat-termelesu-keszletek-allomanyvaltozasa.component'
 import { SzamitogepesKonyveles } from './components/szamitogepesKonyveles/szamitogepes-konyveles.component'
 import { SZJACsokkentoTetelek } from './components/szjaCsokkentoTetelek/szja-csokkento-tetelek.component'
@@ -147,6 +148,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Mérleg nagyított',
     children: <MerlegNagyitott />
+  },
+  {
+    label: 'Részvény elméleti árfolyam meghatározása',
+    children: <ReszvenyElmeletiArfolyamMeghatarozasa />
   }
 ]
 
