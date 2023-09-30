@@ -19,6 +19,7 @@ import { Kotveny } from './components/kotveny/kotveny.component'
 import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasiEsemeny/megterulesiido-forgasiEsemeny.component'
 import { Merleg } from './components/merleg/merleg.component'
 import { Reszveny } from './components/reszveny/reszveny.component'
+import { SzamitogepesKonyveles } from './components/szamitogepesKonyveles/szamitogepes-konyveles.component'
 import { SZJACsokkentoTetelek } from './components/szjaCsokkentoTetelek/szja-csokkento-tetelek.component'
 import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
 import { TargyieszkozApportbaadas } from './components/targyieszkozApportbaadas/targyieszkoz-apportbaadas.component'
@@ -122,6 +123,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Bevallás',
     children: <Bevallas />
+  },
+  {
+    label: 'Számítógépes könyvelés',
+    children: <SzamitogepesKonyveles />
   }
 ]
 
