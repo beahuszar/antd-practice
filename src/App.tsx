@@ -48,11 +48,11 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
     children: <TargyieszkozApportbaadas />
   },
   {
-    label: 'Részvény',
+    label: 'vizsgafelkészítő - Részvény',
     children: <Reszveny />
   },
   {
-    label: 'Megtérülési idő és forgási sebesség',
+    label: 'vizsgafelkészítő - Megtérülési idő és forgási sebesség',
     children: <MegterulesiidoForgasiEsemeny />
   },
   {
@@ -60,35 +60,35 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
     children: <BeruhazasJelenertek />
   },
   {
-    label: 'Kötvény',
+    label: 'vizsgafelkészítő - Kötvény',
     children: <Kotveny />
   },
   {
-    label: 'Idősoros beruházás és bér',
+    label: 'vizsgafelkészítő - Idősoros beruházás és bér',
     children: <IdosorosBeruhazasEsBer />
   },
   {
-    label: 'Idősoros tárgyieszköz és értékesítés',
+    label: 'vizsgafelkészítő - Idősoros tárgyieszköz és értékesítés',
     children: <IdosorosTargyieszkozEsErtekesites />
   },
   {
-    label: 'Kisker értékesítés eredményhatás',
+    label: 'vizsgafelkészítő - Kisker értékesítés eredményhatás',
     children: <KiskerErtekesitesEredmenyhatas />
   },
   {
-    label: 'Tárgyieszköz selejt eredményhatás',
+    label: 'vizsgafelkészítő - Tárgyieszköz selejt eredményhatás',
     children: <TargyieszkozSelejtEredmenyhatas />
   },
   {
-    label: 'Késztermék értékesítés eredményhatás',
+    label: 'vizsgafelkészítő - Késztermék értékesítés eredményhatás',
     children: <KesztermekErtekesitesEredmenyhatas />
   },
   {
-    label: 'Idősoros alapanyag és göngyöleg',
+    label: 'vizsgafelkészítő - Idősoros alapanyag és göngyöleg',
     children: <IdosorosAlapanyagEsGongyoleg />
   },
   {
-    label: 'Jelenérték',
+    label: 'vizsgafelkészítő - Jelenérték',
     children: <Jelenertek />
   },
   {
