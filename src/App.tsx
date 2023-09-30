@@ -19,6 +19,7 @@ import { KiskerErtekesitesEredmenyhatas } from './components/kiskerErtekesitesEr
 import { Kotveny } from './components/kotveny/kotveny.component'
 import { MegterulesiidoForgasiEsemeny } from './components/megterulesiidoForgasiEsemeny/megterulesiido-forgasiEsemeny.component'
 import { Merleg } from './components/merleg/merleg.component'
+import { MerlegNagyitott } from './components/merlegNagyitott/merleg-nagyitott.component'
 import { Reszveny } from './components/reszveny/reszveny.component'
 import { SajatTermelesuKeszletekAllomanyvaltozasa } from './components/sajatTermelesuKeszletekAllomanyvaltozasa/sajat-termelesu-keszletek-allomanyvaltozasa.component'
 import { SzamitogepesKonyveles } from './components/szamitogepesKonyveles/szamitogepes-konyveles.component'
@@ -142,6 +143,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Tárgyieszköz állományváltozása (eladás)',
     children: <TargyieszkozAllomanyvaltozasa />
+  },
+  {
+    label: 'Mérleg nagyított',
+    children: <MerlegNagyitott />
   }
 ]
 
