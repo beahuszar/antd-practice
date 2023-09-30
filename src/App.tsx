@@ -11,6 +11,7 @@ import { IdosorosAlapanyagEsGongyoleg } from './components/idosorosAlapanyagEsGo
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
 import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyieszkozEsErtekesites/idosoros-targyieszkoz-es-ertekesites.component'
 import { Jelenertek } from './components/jelenertek/jelenertek.component'
+import { Kamatszamitas } from './components/kamatszamitas/kamatszamitas.component'
 import { Kepletek } from './components/kepletek/kepletek.component'
 import { KesztermekErtekesitesEredmenyhatas } from './components/kesztermekErtekesitesEredmenyhatas/kesztermekertekesites-eredmenyhatas.component'
 import { KiskerAru } from './components/kiskerAru/kisker-aru.components'
@@ -132,6 +133,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Saját termelésű készletek állományváltozása',
     children: <SajatTermelesuKeszletekAllomanyvaltozasa />
+  },
+  {
+    label: 'Kamatszámítás (egyszerű-kamatos kamat-diszkontálás-effektív)',
+    children: <Kamatszamitas />
   }
 ]
 
