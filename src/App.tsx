@@ -24,6 +24,7 @@ import { SajatTermelesuKeszletekAllomanyvaltozasa } from './components/sajatTerm
 import { SzamitogepesKonyveles } from './components/szamitogepesKonyveles/szamitogepes-konyveles.component'
 import { SZJACsokkentoTetelek } from './components/szjaCsokkentoTetelek/szja-csokkento-tetelek.component'
 import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
+import { TargyieszkozAllomanyvaltozasa } from './components/targyieszkozAllomanyvaltozasa/targyieszkoz-allomanyvaltozasa.component'
 import { TargyieszkozApportbaadas } from './components/targyieszkozApportbaadas/targyieszkoz-apportbaadas.component'
 import { TargyieszkozErtekelese } from './components/targyieszkozErtekelese/targyieszkozErtekelese.component'
 import { TargyieszkozSelejtEredmenyhatas } from './components/targyieszkozSelejtEredmenyhatas/targyieszkoz-selejt-eredmenyhatas.component'
@@ -137,6 +138,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Kamatszámítás (egyszerű-kamatos kamat-diszkontálás-effektív)',
     children: <Kamatszamitas />
+  },
+  {
+    label: 'Tárgyieszköz állományváltozása (eladás)',
+    children: <TargyieszkozAllomanyvaltozasa />
   }
 ]
 
