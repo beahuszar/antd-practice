@@ -29,6 +29,7 @@ import { SZJACsokkentoTetelek } from './components/szjaCsokkentoTetelek/szja-cso
 import { Targyieszkoz } from './components/targyieszkoz/targyieszkoz.component'
 import { TargyieszkozAllomanyvaltozasa } from './components/targyieszkozAllomanyvaltozasa/targyieszkoz-allomanyvaltozasa.component'
 import { TargyieszkozApportbaadas } from './components/targyieszkozApportbaadas/targyieszkoz-apportbaadas.component'
+import { TargyieszkozBeszerzes } from './components/targyieszkozBeszerzes/targyieszkoz-beszerzes.component'
 import { TargyieszkozErtekelese } from './components/targyieszkozErtekelese/targyieszkozErtekelese.component'
 import { TargyieszkozSelejtEredmenyhatas } from './components/targyieszkozSelejtEredmenyhatas/targyieszkoz-selejt-eredmenyhatas.component'
 
@@ -157,6 +158,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Részvény képletek',
     children: <ReszvenyKepletek />
+  },
+  {
+    label: 'Tárgyieszköz beszerzés',
+    children: <TargyieszkozBeszerzes />
   }
 ]
 
