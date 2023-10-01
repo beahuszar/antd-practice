@@ -3,6 +3,7 @@ import { ChangeEvent, useState } from 'react'
 import { Berszamfejtes } from './components/berszamfejtes/berszamfejtes.component'
 import { BeruhazasJelenertek } from './components/beruhazasJelenertek/beruhazas-jelenertek.component'
 import { Bevallas } from './components/bevallas/bevallas.component'
+import { Definiciok } from './components/definiciok/definiciok.component'
 import { DinamikusEsStatikusMutatok } from './components/dinamikusEsStatikusMutatok/dinamikus-es-statikus-mutatok.component'
 import { Eredmenykimutatas } from './components/eredmenykimutatas/eredmenykimutatas.component'
 import { GazdasagiAlapszamitasok } from './components/gazdasagiAlapszamitasok/gazdasagi-alapszamitasok.component'
@@ -162,6 +163,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Tárgyieszköz beszerzés',
     children: <TargyieszkozBeszerzes />
+  },
+  {
+    label: 'Definíciók',
+    children: <Definiciok />
   }
 ]
 
