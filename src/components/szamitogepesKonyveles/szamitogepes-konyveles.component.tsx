@@ -1,4 +1,5 @@
 import image from './images/image1.png'
+import image2 from './images/image2.png'
 
 export function SzamitogepesKonyveles() {
   return (
@@ -26,35 +27,39 @@ export function SzamitogepesKonyveles() {
       <p>
         <strong>Aktív időbeli elhatárolás:</strong>
       </p>
-      <p>Bev AIE T = listából 9… K = 391</p>
+      <p style={{ color: 'red' }}>Bev AIE T = listából 9731 K = 391</p>
       <p>Ktg AIE T = listából 5… K = 392</p>
       <p>Passzív időbeli elhatárolás:</p>
-      <p>Bev. PIE T = 481 K = 9… listából, ami a szöveges részben látszódik</p>
+      <p style={{ color: 'red' }}>
+        Bev. PIE T = 481 K = 914 listából, ami a szöveges részben látszódik
+      </p>
       <p>ktg PEI T = 482 K = 52… listából, ami a szöveges részben látszódik</p>
       <p>
         <strong>Adózott eredmény:</strong>
       </p>
       <p>HA VESZTESÉG</p>
-      <p>T = 413 EREDMÉNYTARTALÉK K = 419 ADÓZOTT EREDMÉNY</p>
+      <p style={{ color: 'red' }}>T = 413 EREDMÉNYTARTALÉK K = 419 ADÓZOTT EREDMÉNY</p>
       <p>HA NYERESÉG</p>
       <p>T = 419 ADÓZOTT EREDMÉNY K = 413 EREDMÉNYTARTALÉK</p>
       <p>
-        <strong>ÁruKÉSZLET</strong> T = 511 K = 21-22 csak akkor ha nem vezet nyilvántartást
-      </p>
-      <p>
-        <img src={image} alt='image' />
+        <img src={image} alt='image' style={{ height: 'auto', width: '100%' }} />
       </p>
       <h3>SZÁMLÁK</h3>
       <p>NYITÓ = ELSŐ KOCKA PIPA CSAK A PÉNZÜGYI NYILVÁNTARTÁSBAN…</p>
       <p>Ha a cég a vevő, az szállító számla, ha a cég az eladó az vevő számla</p>
       <p>Vevő számlán az árbevétel 9-es számla lehet</p>
-      <p>
-        Szállító számlán a költség 5-ös számla lehet vagy 2-es a készlet ha készletnyilvántartást
-        vezet
+      <p>Szállító számlán a költség 5-ös számla</p>
+      <p style={{ color: 'red' }}>
+        Közvetített szolgáltatásos számla fordított adózású is Alvállalkozó T815 K4541
       </p>
       <p>
         Fordított adózás JELÖLNI! = Szállító számlán áfamentes, Vevő számlán végigcsináni a
         részleteket
+      </p>
+      <p style={{ color: 'red' }}>Mindent költségként 5ös számla</p>
+      <p style={{ color: 'red' }}>Anyag T511 K4541</p>
+      <p style={{ color: 'red' }}>
+        Teherautó és rendszámtábla aktiválása vegyes naplóba T132 K161 csak a nettó összeget!
       </p>
       <h3>BANK (1/2023, 55/2023)</h3>
       <p>bizonylat száma a bankkivonat száma (1/2023)</p>
@@ -63,20 +68,10 @@ export function SzamitogepesKonyveles() {
       <p>nyitó és záró egyenleget figyelni</p>
       <p>Állítani hogy kiadás T…K381 vagy bevétel T381K…</p>
       <p>számlákat ki lehet egyenlíteni automatikusan</p>
-      <h3>Pénztár</h3>
-      <p>bevétel vagy kiadás</p>
-      <p>nyitó és záróegyenleg ellenőrzése</p>
-      <p>üzemanyag áfája csak akkor írható le, ha tehergépkocsi dízel</p>
-      <h3>Bérszámfejtés feladása</h3>
-      <p>dátum hónap utolsó napja</p>
-      <p>Bruttó bér T541 K471</p>
-      <p>betegszabi T5511 K471</p>
-      <p>szocho T561 K4632</p>
-      <p>TB T471 K473</p>
-      <p>szja T471 K462</p>
-      <p>bírói letiltás T471 K4762</p>
-      <p>nettó bér már február 5 és T471 K384</p>
-      <h3>Tárgyieszköz</h3>
+      <p style={{ color: 'red' }}> készpénz felvétel T389 K384</p>
+      <p style={{ color: 'red' }}>kamatjóváírás T 3841 K9741</p>
+      <p style={{ color: 'red' }}>bankköltség T5321K3841 </p>
+      <br />
       <p>
         <strong>Bérszámfejtés</strong>
       </p>
@@ -90,17 +85,8 @@ export function SzamitogepesKonyveles() {
       <p>Béradatok – (esetleg kilépettek megjelenítése) – számfejtés</p>
       <p>Bérlisták pdf nyomtatása 2 db (bérlista-bérjegyzék) - hónapot kiválasztani</p>
       <p>
-        <strong>
-          Készletnyilvántartás esetén az anyagfelhasználás könyvelése vegyes naplóba (számítás után)
-          Készlet1, készlet2…
-        </strong>
+        <img src={image2} alt='image2' style={{ height: 'auto', width: '100%' }} />
       </p>
-      <p>T511… K211…</p>
-      <p>Anyag értékesítés könyvelése</p>
-      <p>T814 K211…</p>
-      <p>Selejtezés könyvelése</p>
-      <p>T8693 K211…</p>
-      <p>Maradék készletet nem kell könyvelni csak számolni</p>
     </>
   )
 }
