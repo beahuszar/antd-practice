@@ -48,12 +48,13 @@ export function SZJACsokkentoTetelek() {
         havi 77.300 Ft-tal csökkenthető, amely 11.595 Ft adómegtakarítást jelent.
       </div>
       <div>
-        <strong>Első házasok kedvezménye: </strong> Egészségi állapotra tekintettel lehet figyelembe
-        venni. Rokkantság, Fogyatékosság ill. Kormányrendeletben meghatározott betegségek fenállása
-        esetén. Az állapotot orvosi igazolással vagy határozattal kell igazolni. Jogosultság kezdete
-        az a hónap, amelyre vonatkozóan az orvosi igazolást kiadták, végső dátum pedig az állapot
-        megszűnéséről szóló határozat dátuma szerinti hónap. Az SZJA alapja ilyen kedvezmény címén
-        havi 77.300 Ft-tal csökkenthető, amely 11.595 Ft adómegtakarítást jelent.
+        <strong>Első házasok kedvezménye: </strong> Házasságkötést követő hónaptól érvényes 24
+        hónapon keresztül. Együttesen is érvényesíthetik a házastársak 50-50%-ban, de lehet kérni
+        csak az egyik fél részére is, ilyenkor nyilatkozat szükséges a kedvezmény megosztásról.
+        Mértéke 33.335 Ft szja köteles jövedelm, tehát havi 5000 Ft SZJA-t lehet vele megspórolni.
+        Speciális szabály, hogy a kedvezményt megszakítja a 25 éves életkorhoz köthető kedvezmény,
+        majd ennek lejártát követően a még hátralévő időszakra az első házas kedvezmény ismét
+        érvényesíthető.
       </div>
       <div>
         <div>
