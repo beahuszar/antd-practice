@@ -8,6 +8,7 @@ import { DinamikusEsStatikusMutatok } from './components/dinamikusEsStatikusMuta
 import { Eredmenykimutatas } from './components/eredmenykimutatas/eredmenykimutatas.component'
 import { GazdasagiAlapszamitasok } from './components/gazdasagiAlapszamitasok/gazdasagi-alapszamitasok.component'
 import { GazdasagiEsemenyek } from './components/gazdasagiEsemenyek/gazdasagi-esemenyek.component'
+import { IdosorosSTKV } from './components/idosoroSTKV/idosoros-stkv.component'
 import { IdosorosAlapanyagEsGongyoleg } from './components/idosorosAlapanyagEsGongyoleg/idosoros-alapanyag-es-gongyoleg.component'
 import { IdosorosBeruhazasEsBer } from './components/idosorosBeruhazasEsBer/idosoros-beruhazas-es-ber.component'
 import { IdosorosTargyieszkozEsErtekesites } from './components/idosorosTargyieszkozEsErtekesites/idosoros-targyieszkoz-es-ertekesites.component'
@@ -167,6 +168,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'Definíciók',
     children: <Definiciok />
+  },
+  {
+    label: 'vizsgafelkészítő - Idősoros STKV',
+    children: <IdosorosSTKV />
   }
 ]
 
