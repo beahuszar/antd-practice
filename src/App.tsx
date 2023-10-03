@@ -34,6 +34,7 @@ import { TargyieszkozApportbaadas } from './components/targyieszkozApportbaadas/
 import { TargyieszkozBeszerzes } from './components/targyieszkozBeszerzes/targyieszkoz-beszerzes.component'
 import { TargyieszkozErtekelese } from './components/targyieszkozErtekelese/targyieszkozErtekelese.component'
 import { TargyieszkozSelejtEredmenyhatas } from './components/targyieszkozSelejtEredmenyhatas/targyieszkoz-selejt-eredmenyhatas.component'
+import { ValtoKamata } from './components/valtoKamata/valto-kamata.component'
 
 // TODO: valami nem oke a deployyal, csak a build foldert nyomja fel
 const defaultItems: { label: string; children: React.ReactNode }[] = [
@@ -172,6 +173,10 @@ const defaultItems: { label: string; children: React.ReactNode }[] = [
   {
     label: 'vizsgafelkészítő - Idősoros STKV',
     children: <IdosorosSTKV />
+  },
+  {
+    label: 'Váltó kamatának meghatározása',
+    children: <ValtoKamata />
   }
 ]
 
